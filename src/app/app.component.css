@@ -1,0 +1,13 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/photo-bureau.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+ }
+
+ footer {
+   /*  background-color: #00ac9a;
+    padding-top: 15px; */
+}
