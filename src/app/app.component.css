@@ -1,13 +1,106 @@
 .background {
     width: 100%;
-    height: 100vh;
+    height: 45em;
     background: url('../assets/photo-bureau.jpg') no-repeat;
     background-size: cover;
     color: white;
     text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
- footer {
-   /*  background-color: #00ac9a;
-    padding-top: 15px; */
+#accueil {
+    border: 1em double white;
+    padding : 2em;
+    display: inline-block;
+    margin: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Caveat', cursive, sans-serif;
+}
+
+.titre1 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    color: #63605e;
+}
+
+h3 {
+    color: darkgray;
+    font-weight: 300; 
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.cercle {
+    width: 18em;
+    height: 18em;
+    border-radius: 9em;
+    background:#839672;
+    opacity: 0.5;
+    display: inline-block;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carre {
+    width: 18em;
+    margin: 0;
+   /*  display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* .bloc-cercle {
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.texteP1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    color: darkgray;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.myskills {
+    text-align: center;
+}
+
+.citation-bloc {
+    font-family: 'Caveat', cursive, sans-serif;
+    
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.citation-text {
+    font-family: 'Caveat', cursive, sans-serif;
+    font-size: 2em;
+}
+
+.petit-cercle {
+    width: 8em;
+    height: 8em;
+    border-radius: 4em;
+    background: #efe0c9;
+    opacity: 0.8;
+}
+
+.dates-bloc {
+    margin: 3em 0em 3em;
 }
